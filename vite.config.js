@@ -8,6 +8,7 @@ export default defineConfig({
     vue(), 
     tailwindcss()
   ],
+  base: '/DonorList/',
   resolve: {
     alias: {
       '@': '/src'
